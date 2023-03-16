@@ -9,21 +9,24 @@
 #content {
   font-family: "Montserrat", sans-serif;
   height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 header {
   display: flex;
   gap: 15px;
-  padding: 3em 5em;
+  padding: 2em 3em;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   white-space: nowrap;
   flex-wrap: wrap;
 }
 
-.logo {
+.logo,
+footer {
   font-family: "Short Stack", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   color: #74a257;
 }
 
@@ -40,25 +43,26 @@ ul {
   color: #74a257;
 }
 
-/* home */
-#content {
-  display: grid;
-  grid-template-rows: auto 1fr;
+footer {
+  font-size: 18px;
+  padding: 1em;
+  text-align: center;
 }
+
+
+/* home */
 
 .hero {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 1fr auto;
   background-image: url(../src/peachtable.jpg);
   background-position: center;
-  padding: 7em;
+  background-repeat: no-repeat;
 }
 
 .hero-text {
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 5em;
+  width: 30vw;
 }
 
 .top-text {

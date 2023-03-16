@@ -1,3 +1,4 @@
+import { addFooter } from "../footer";
 import { tabLoader } from "../tabs";
 
 function homePageLoader() {
@@ -23,6 +24,8 @@ function homePageLoader() {
   document.querySelector("#content").appendChild(hero);
   hero.appendChild(heroText);
   heroText.append(topText, bottomText);
+
+  addFooter();
 }
 
 export { homePageLoader };
