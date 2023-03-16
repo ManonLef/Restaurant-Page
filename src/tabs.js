@@ -1,7 +1,9 @@
 import { addEventListeners } from ".";
+import { clearContents } from "./clearContents";
 
 function tabLoader() {
-
+  clearContents();
+  
   const header = document.createElement("header");
   const tabs = document.createElement("ul");
   const home = document.createElement("li");
