@@ -1,6 +1,9 @@
 import peachImage from "./peachtable.jpg";
+import { tabLoader } from "./tabs";
 
 function homePageLoad() {
+  tabLoader();
+  
   const restaurantName = document.createElement("div");
   restaurantName.className = "restaurant-name";
   restaurantName.textContent = "T H E • J O L L Y • J U I C E R";
