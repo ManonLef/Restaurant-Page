@@ -18,9 +18,7 @@ function homePageLoader() {
   welcomeMessage.textContent =
     "Welcome to The Jolly Juicer! Our juice bar is the perfect place to grab a tasty and healthy drink made with locally sourced and organic fruits and veggies. Come in today and try one of our signature blends or create your own custom juice.";
 
-  const content = document.querySelector("#content");
-
-  content.append(restaurantName, heroImage, welcomeMessage);
+  document.querySelector("#content").append(restaurantName, heroImage, welcomeMessage);
 }
 
 export { homePageLoader };
