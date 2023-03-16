@@ -26,9 +26,9 @@ This project was prefaced with lessons about classes, ES6 modules and Webpack. T
   - text overlay containers with 75% opacity to keep the design consistent across pages
 
 ## Credits
-photo homepage: [by LUM3N](https://unsplash.com/photos/RYqO8DhPg68)
-photo menu page: [by Brooke Larke](https://unsplash.com/photos/08bOYnH_r_E)
-photo contact page: [by Element5 Digital](https://unsplash.com/photos/acrBf9BlfvE)
+- photo homepage: [by LUM3N](https://unsplash.com/photos/RYqO8DhPg68)
+- photo menu page: [by Brooke Larke](https://unsplash.com/photos/08bOYnH_r_E)
+- photo contact page: [by Element5 Digital](https://unsplash.com/photos/acrBf9BlfvE)
 
 ## Things to do or features to add someday/maybe
 - [ ] add mobile responsiveness with media queries
