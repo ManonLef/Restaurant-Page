@@ -1,4 +1,4 @@
-function movePage() {
+function clearContents() {
   const container = document.querySelector("#content");
   
   while (container.firstChild) {
@@ -6,4 +6,4 @@ function movePage() {
   }
 }
 
-export { movePage };
+export { clearContents };

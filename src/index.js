@@ -1,7 +1,15 @@
 import { homePageLoader } from "./home";
 import { menuPageLoader } from "./menu";
-import "./style.css"
+import "./style.css";
 
 homePageLoader();
 
-document.querySelector(".menu-tab").addEventListener("click", menuPageLoader)
+function addEventListeners() {
+  //home
+  document.querySelector(".home-tab").addEventListener("click", homePageLoader);
+  //menu
+  document.querySelector(".menu-tab").addEventListener("click", menuPageLoader);
+  //contact
+}
+
+export { addEventListeners }

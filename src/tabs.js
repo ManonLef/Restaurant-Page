@@ -1,4 +1,7 @@
+import { addEventListeners } from ".";
+
 function tabLoader() {
+
   const header = document.createElement("header");
   const tabs = document.createElement("ul");
   const home = document.createElement("li");
@@ -16,6 +19,8 @@ function tabLoader() {
   tabs.append(home, menu, contact)
 
   document.querySelector("#content").appendChild(header);
+
+  addEventListeners();
 }
 
 export { tabLoader };

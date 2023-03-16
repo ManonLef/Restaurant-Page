@@ -1,12 +1,9 @@
 import { tabLoader } from "./tabs";
-import { movePage } from "./movePage";
+import { clearContents } from "./clearContents";
 
 function menuPageLoader() {
-  movePage();
+  clearContents();
   tabLoader();
-
-  const tab = document.querySelector(".menu-tab");
-  tab.className = "menu-tab active-page";
 
   const menu = document.createElement("p");
   menu.textContent = "this will be the menu page";
