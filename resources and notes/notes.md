@@ -39,3 +39,4 @@ Carrots, oranges, pineapple, and turmeric. Packed with antioxidants and vitamin 
 Strawberries, blueberries, raspberries, and beets. Bursting with flavor and nutrients, this juice is a perfect way to satisfy your sweet tooth while still getting a healthy dose of fruits and vegetables.
 
 - **image Brooke Larke https://unsplash.com/photos/08bOYnH_r_E**  
+- **image juices Alex Lvrs https://unsplash.com/photos/-ZvC04d-xLw**
