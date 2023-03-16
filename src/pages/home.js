@@ -1,23 +1,28 @@
-import peachImage from "../peachtable.jpg";
 import { tabLoader } from "../tabs";
 
 function homePageLoader() {
   tabLoader();
-  
-  document.querySelector(".home-tab").className = "home-tab active-page"
 
+  document.querySelector(".home-tab").className = "home-tab active-page";
 
-  const heroImage = new Image();
-  heroImage.src = peachImage;
-  heroImage.alt = "peaches on a table";
+  const hero = document.createElement("div");
+  hero.className = "hero";
 
-  const welcomeMessage = document.createElement("p");
-  welcomeMessage.className = "welcome";
-  welcomeMessage.textContent =
-    "Welcome to The Jolly Juicer! Our juice bar is the perfect place to grab a tasty and healthy drink made with locally sourced and organic fruits and veggies. Come in today and try one of our signature blends or create your own custom juice.";
+  const heroText = document.createElement("div");
+  heroText.className = "hero-text";
 
-  document.querySelector("#content").append( heroImage, welcomeMessage);
+  const topText = document.createElement("p");
+  topText.className = "top-text";
+  topText.textContent = "Welcome to The Jolly Juicer!";
 
+  const bottomText = document.createElement("p");
+  bottomText.className = "bottom-text";
+  bottomText.textContent =
+    "Our juice bar is the perfect place to grab a tasty and healthy drink made with locally sourced and organic fruits and veggies. Come in today and try one of our signature blends or create your own custom juice.";
+
+  document.querySelector("#content").appendChild(hero);
+  hero.appendChild(heroText);
+  heroText.append(topText, bottomText);
 }
 
 export { homePageLoader };
