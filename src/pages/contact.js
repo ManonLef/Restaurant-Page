@@ -16,7 +16,9 @@ function contactPageLoader() {
 
   const contactDetails = document.createElement("div");
   contactDetails.className = "contact-details";
-
+  const contactOptions = document.createElement("p");
+  contactOptions.className = "contact-options";
+  contactOptions.textContent = "Contact Details"
   const contactEmail = document.createElement("p");
   contactEmail.textContent = "Email: info@jollyjuicer.com";
   const contactPhone = document.createElement("p");
@@ -26,14 +28,16 @@ function contactPageLoader() {
     "Address: 123 Main Street, Suite 456, Anytown, NP";
 
   const openingHours = document.createElement("div");
+  openingHours.className = "opening"
   const hours = document.createElement("p");
-  hours.textContent = "Opening Hours:"
+  hours.className = "hours"
+  hours.textContent = "Opening Hours"
   const mondayFriday = document.createElement("p");
   mondayFriday.textContent = "Monday - Friday: 8am - 6pm";
   const weekend = document.createElement("p");
   weekend.textContent = "Saturday - Sunday: 9am - 5pm"
 
-  contactDetails.append(contactEmail, contactPhone, contactAddress)
+  contactDetails.append(contactOptions, contactEmail, contactPhone, contactAddress)
   openingHours.append(hours, mondayFriday, weekend)
   contactContainer.append(info, contactDetails, openingHours)
   document.querySelector("#content").append(contactContainer);
