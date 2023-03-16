@@ -1,9 +1,9 @@
-import { tabLoader } from "./tabs";
-import { clearContents } from "./clearContents";
+import { tabLoader } from "../tabs";
 
 function menuPageLoader() {
-  clearContents();
   tabLoader();
+
+  document.querySelector(".menu-tab").className = "home-tab active-page"
 
   const menu = document.createElement("p");
   menu.textContent = "this will be the menu page";

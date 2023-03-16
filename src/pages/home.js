@@ -1,9 +1,10 @@
-import peachImage from "./peachtable.jpg";
-import { tabLoader } from "./tabs";
-import { clearContents } from "./clearContents";
+import peachImage from "../peachtable.jpg";
+import { tabLoader } from "../tabs";
 
 function homePageLoader() {
   tabLoader();
+  
+  document.querySelector(".home-tab").className = "home-tab active-page"
   
   const restaurantName = document.createElement("div");
   restaurantName.className = "restaurant-name";
