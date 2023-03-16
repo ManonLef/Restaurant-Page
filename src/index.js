@@ -3,7 +3,7 @@ import { menuPageLoader } from "./pages/menu";
 import { contactPageLoader } from "./pages/contact";;
 import "./style.css";
 
-menuPageLoader();
+homePageLoader();
 
 function addEventListeners() {
   //home
