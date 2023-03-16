@@ -6,8 +6,11 @@ function tabLoader() {
   const contact = document.createElement("li");
 
   home.textContent = "home";
+  home.className = "home-tab"
   menu.textContent = "menu";
+  menu.className = "menu-tab"
   contact.textContent = "contact";
+  contact.className = "contact-tab"
 
   header.appendChild(tabs);
   tabs.append(home, menu, contact)

@@ -1,7 +1,7 @@
 import peachImage from "./peachtable.jpg";
 import { tabLoader } from "./tabs";
 
-function homePageLoad() {
+function homePageLoader() {
   tabLoader();
   
   const restaurantName = document.createElement("div");
@@ -23,4 +23,4 @@ function homePageLoad() {
   content.append(restaurantName, heroImage, welcomeMessage);
 }
 
-export { homePageLoad };
+export { homePageLoader };
