@@ -23,3 +23,8 @@
     ```
   - run `npx webpack` (creates `main.js`)
   - use `npx webpack --watch` to automatically refresh on changes instead of having to rerun webpack
+
+  - the above are step 1, 2 and 3
+
+## 20230316
+- added photo: peaches on table: by LUM3N https://unsplash.com/photos/RYqO8DhPg68
