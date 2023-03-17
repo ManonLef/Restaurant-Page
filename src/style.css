@@ -90,6 +90,7 @@ footer {
   align-items: center;
   padding: 1rem;
   gap: 1rem;
+  justify-content: space-between;
 }
 
 .menu-sample,
